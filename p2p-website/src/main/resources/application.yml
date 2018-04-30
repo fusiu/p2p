@@ -1,0 +1,12 @@
+server:
+  port: 8100
+
+spring:
+  application:
+    name: gaming-server-web-admin
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
